@@ -12,7 +12,6 @@ y_{t+1} = y_t + v \cdot sin(\theta_{t}) \cdot dt
 \end{align}
 $$
 
-<br />
 $$
 \begin{align}
 \theta_{t+1} = \theta_t + \frac{v}{L} \cdot tan(\delta) \cdot dt
