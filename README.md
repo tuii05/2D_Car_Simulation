@@ -22,11 +22,12 @@ $$
 
 Where:
 
-- `x`, `y`: current position of the vehicle  
+- `(x, y)`: current position of the vehicle  
 - `θ`: heading angle  
 - `v`: velocity  
 - `L`: wheelbase  
-- `δ`: steering angle  
+- `δ`: steering angle
+- `dt`: small time difference between (i+1) and i position.
 
 The car can turn **left** with the `A` key and **right** with the `D` key.
 
