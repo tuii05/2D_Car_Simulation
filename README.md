@@ -17,7 +17,8 @@ $$
 \theta_{t+1} = \theta_t + \frac{v}{L} \cdot tan(\delta) \cdot dt,
 \end{align}
 $$
-<br />
+
+
 where (x,y) is the current position of the vehicle, $\theta$  is the heading angle, v is the velocity, L is the wheelbase and $\delta$ is the steering angle.
 
 
