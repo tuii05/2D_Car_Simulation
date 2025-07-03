@@ -1,6 +1,6 @@
 ## 2D Car Simulation
 
-A simple simulation to model a 2D car using a simplified **bicycle model**, traveling at **constant speed**. The motion is governed by the following equations:
+A simple simulation to model a 2D car using a simplified **bicycle model**, traveling at **constant speed**. The motion is described by the following equations:
 
 $$
 \begin{align}
