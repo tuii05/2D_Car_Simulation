@@ -1,4 +1,4 @@
-$Simple simulation to modell a 2D car, based on a simplified bycicle modell, with the following equations:$
+Simple simulation to modell a 2D car, based on a simplified bycicle modell, with the following equations:
 
 $$
 \begin{align}
@@ -19,6 +19,6 @@ $$
 $$
 
 
-$where (x,y) is the current position of the vehicle, $\theta$  is the heading angle, v is the velocity, L is the wheelbase and $\delta$ is the steering angle.$
+where (x,y) is the current position of the vehicle, $\theta$  is the heading angle, v is the velocity, L is the wheelbase and $\delta$ is the steering angle.
 
 
