@@ -4,13 +4,13 @@ A simple simulation to model a 2D car using a simplified **bicycle model**, trav
 
 $$
 \begin{align}
-x_{i+1} = x_i + v \cdot cos(\theta_{t}) \cdot dt,
+x_{i+1} = x_i + v \cdot cos(\theta_{i}) \cdot dt,
 \end{align}
 $$
 
 $$
 \begin{align}
-y_{i+1} = y_i + v \cdot sin(\theta_{t}) \cdot dt,
+y_{i+1} = y_i + v \cdot sin(\theta_{i}) \cdot dt,
 \end{align}
 $$
 
