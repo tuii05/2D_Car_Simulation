@@ -1,4 +1,4 @@
-Simple simulation to modell a 2D based on a simplified bycicle modell with the following equations: <br />
+Simple simulation to modell a 2D car, based on a simplified bycicle modell, with the following equations: <br />
 
 $$
 \begin{align}
