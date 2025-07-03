@@ -1,4 +1,4 @@
-## 2D Car Simulation with assists
+## 2D Car Simulation
 
 A simple simulation to model a 2D car using a simplified **bicycle model**, traveling at **constant speed**. The motion is governed by the following equations:
 
