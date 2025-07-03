@@ -1,4 +1,6 @@
-Simple simulation to modell a 2D car, based on a simplified bycicle modell and travelling with constant speed, using the following equations:
+## 2D Car Simulation with assists
+
+A simple simulation to model a 2D car using a simplified **bicycle model**, traveling at **constant speed**. The motion is governed by the following equations:
 
 $$
 \begin{align}
@@ -18,11 +20,25 @@ $$
 \end{align}
 $$
 
-<p align="justify"> 
-where $(x, y)$ is the current position of the vehicle, $\theta$  is the heading angle, $v$ is the velocity, $L$ is the wheelbase and $\delta$ is the steering angle. The car has the ability to turn left (with button a) and right (with button d). Moreover, the simulation contains two types of assists that helps the car stay in between the lanes. These two lane keeping assists are the following:
+Where:
 
-- The first one activates in case the distance between the car and one of the line, that defines the lane, is less than a set value.
-- The second one makes the car stay on the center of the lane with utilizing PID controllers and if the driver wants to move off the center of the lane, the system cuts off the steering and steers the car back to the center.
+- `x`, `y`: current position of the vehicle  
+- `θ`: heading angle  
+- `v`: velocity  
+- `L`: wheelbase  
+- `δ`: steering angle  
 
-</p>
+The car can turn **left** with the `A` key and **right** with the `D` key.
+
+---
+
+### Lane Keeping Assists
+
+The simulation includes two types of lane keeping assistance systems to help the vehicle stay within the lane:
+
+1. **Proximity-Based Assist**  
+   Activates when the distance between the car and one of the lane-defining lines becomes smaller than a predefined threshold.
+
+2. **PID-Based Lane Centering**  
+   Keeps the car centered in the lane using a PID controller. If the driver attempts to steer away from the center, the system overrides the input and steers the car back to the lane center.
 
