@@ -35,10 +35,10 @@ The car can turn **left** with the `A` key and **right** with the `D` key.
 
 ### Lane Keeping Assists
 
-The simulation includes two types of lane keeping assistance systems to help the vehicle stay within the lane:
+The simulation includes two types of lane keeping assist systems to help the vehicle stay within the lane:
 
 1. **Proximity-Based Assist**  
-   Activates when the distance between the car and one of the lane-defining lines becomes smaller than a predefined threshold.
+   Activates when the distance between the car and one of the lane-defining lines becomes smaller than a predefined value.
 
 2. **PID-Based Lane Centering**  
    Keeps the car centered in the lane using a PID controller. If the driver attempts to steer away from the center, the system overrides the input and steers the car back to the lane center.
